@@ -1,0 +1,36 @@
+.page{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-control{
+   border: 0;
+   border-bottom: 2px solid black;
+   border-radius: 0px;
+   font-size: 1.5rem;
+}
+
+.form-control:focus{
+    border-color: rgb(24, 122, 207);
+    box-shadow: none;
+}
+
+.submit{
+    display: flex;
+    justify-content: end;
+}
+
+.favicon{
+    max-width: 400px;
+    /* transform: scale(2); */
+}
+
+.img-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
